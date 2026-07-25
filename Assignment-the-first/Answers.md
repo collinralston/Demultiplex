@@ -21,8 +21,8 @@
 2. Describe output
     Output will be the 48 r1 and r2 index fq files, as well as the r1 and r2 hopped and unknown fq files. Error rate will be informative. This is expressed in the ratio of the correctly matched indexes vs. the index hopped and unknown indexes.
 3. Upload your [4 input FASTQ files](../TEST-input_FASTQ) and your [>=6 expected output FASTQ files](../TEST-output_FASTQ).
-4. Pseudocode
-5. High level functions. For each function, be sure to include:
+4. Pseudocode - Done in Strategy.md
+5. High level functions. For each function, be sure to include: - Done in Strategy.md
     1. Description/doc string
     2. Function headers (name and parameters)
     3. Test examples for individual functions
