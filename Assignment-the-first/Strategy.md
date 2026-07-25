@@ -1,6 +1,14 @@
 Create dictionary of all index combinations-> index-index - keys, values = # of times that index-index combination occurs.
-convert_phred(str): - takes a  single ascii character and converts it into a quality score
-reverse_complement(str) - returns the reverse complement DNA strand of an input string
+convert_phred(str)->int: - 
+'''takes a  single ascii character and converts it into a quality score'''
+    return qscore
+    input: I
+    output: 40
+reverse_complement(str)->str:
+'''returns the reverse complement DNA strand of an input string'''
+    return reverse_complement
+    input: ATGTA
+    output:TACAT
 Open all R files
     While True loop:
         R4 file, find paired end read
