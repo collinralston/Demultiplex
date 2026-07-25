@@ -1,7 +1,6 @@
 # bioinfo files
 *.fastq
 *.fastq.gz
-*.fq
 *.fq.gz
 *.sam
 *.bam
