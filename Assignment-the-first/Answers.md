@@ -17,7 +17,9 @@
     
 ## Part 2
 1. Define the problem
+    We are demultiplexing a fastq file, where a bunch of different reads were seqeunced on an Illumina machine, and indexed in order to keep track of whose DNA is whose, and what the source of the DNA is. Our aim is to 'de mix' these reads based on that index, or barcode by creating fq files associated with that index.
 2. Describe output
+    Output will be the 48 r1 and r2 index fq files, as well as the r1 and r2 hopped and unknown fq files. Error rate will be informative. This is expressed in the ratio of the correctly matched indexes vs. the index hopped and unknown indexes.
 3. Upload your [4 input FASTQ files](../TEST-input_FASTQ) and your [>=6 expected output FASTQ files](../TEST-output_FASTQ).
 4. Pseudocode
 5. High level functions. For each function, be sure to include:
