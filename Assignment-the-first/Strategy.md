@@ -1,4 +1,4 @@
-Create dictionary of all index combinations-> index-index - keys, values = # of times that index-index combination occurs.
+```Create dictionary of all index combinations-> index-index - keys, values = # of times that index-index combination occurs.
 convert_phred(str)->int: - 
 '''takes a  single ascii character and converts it into a quality score'''
     return qscore
@@ -21,7 +21,7 @@ Open all R files
             else - only case left would be if both barcodes are in dict but not matched -> add to barcode combo count in dict -> hopped file
 report the number of properly matched indexes, index hopped, and unknown indexes with index_dict counts, hopped count, and unknown count
     to do this loop through index_dict
-
+```
 Defining the problem:
     We are demultiplexing a fastq file, where a bunch of different reads were seqeunced on an Illumina machine, and indexed in order to keep track of whose DNA is whose, and what the source of the DNA is. Our aim is to 'de mix' these reads based on that index, or barcode by creating fq files associated with that index.
 Informative output:
