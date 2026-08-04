@@ -10,6 +10,9 @@
 !TEST-input_FASTQ/*
 !TEST-output_FASTQ/*
 
+big_out
+big_test
+
 # vscode
 .vscode/
 
@@ -114,3 +117,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+# pixi environments
+.pixi/*
+!.pixi/config.toml
