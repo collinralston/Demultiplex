@@ -68,4 +68,21 @@
             memory: 3236
     
     
+- 8/5/26:
+    - Made a bigger test file with the first million records in the fq files - stored in big_test and big_out.
+        - added to gitignore
+    - Running my demultiplexing code on the final fasta files (used cutoff as 25):
+        - job 46009531:
+            time: 47:34.14
+            CPU: 86%
+            memory: 300632
+        - seems like everything worked correctly, output is summarized in summary.md and ht_map.png
+- 8/6/26
+    - I added some graphs to the main script(hops_and_matches.png and diff_HopAndMatch.png) to look at the difference in how often certain barcodes occured in a match vs. how often they occured in a hop. Not exactly sure how there would be a significant difference between the two, but preliminary testing showed some indexes were either hopping less or hopping more - a good way of visualizing data for further investigation
+        - job# 46018216:
+            time: 50:16.73
+            CPU: 78%
+            memory: 303608
+        
+    
     
